@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAJCFNUdbAWYSw4Q-ObhceOZ6TZ0LSQWS0",
-  authDomain: "beauty-seloon.firebaseapp.com",
-  projectId: "beauty-seloon",
-  storageBucket: "beauty-seloon.appspot.com",
-  messagingSenderId: "433143721020",
-  appId: "1:433143721020:web:9121a24751fb872bc0a739",
+  apiKey: "AIzaSyAo0OBo8y8tsWpcDAPn4wKx3HtPNRxQU_M",
+  authDomain: "beauty-shop-project-f674d.firebaseapp.com",
+  projectId: "beauty-shop-project-f674d",
+  storageBucket: "beauty-shop-project-f674d.appspot.com",
+  messagingSenderId: "550179253925",
+  appId: "1:550179253925:web:246e68906ce25cc2d0e74c"
 };
 
 export default firebaseConfig;
