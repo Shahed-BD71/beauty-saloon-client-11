@@ -72,9 +72,9 @@ const Navbar = ({ countCartItems, handleLogOut}) => {
                 Contact Us
               </NavLink>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <NavLink
-                class="nav-link active text-dark dropdown-toggle"
+                className="nav-link active text-dark dropdown-toggle"
                 to="#"
                 id="navbarDropdown"
                 role="button"
@@ -90,7 +90,7 @@ const Navbar = ({ countCartItems, handleLogOut}) => {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 {user.name ? (
                   <li className="">
-                    <NavLink class="dropdown-item" to='/logout'>
+                    <NavLink className="dropdown-item" to='/logout'>
                       <span onClick={handleLogOut}>
                          Logout
                      </span>
@@ -98,7 +98,7 @@ const Navbar = ({ countCartItems, handleLogOut}) => {
                   </li>
                 ) : (
                   <li>
-                    <NavLink class="dropdown-item" exact to="/login">
+                    <NavLink className="dropdown-item" exact to="/login">
                       <span>Sign In</span>
                     </NavLink>
                   </li>

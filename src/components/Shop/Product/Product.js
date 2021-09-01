@@ -28,8 +28,8 @@ const Product = ({addProduct}) => {
         ))
       ) : (
         <div style={{ textAlign: "center", border: "none" }}>
-          <div class="loadingio-spinner-pulse-pcfqenj96f">
-            <div class="ldio-02fa0calvywk">
+          <div className="loadingio-spinner-pulse-pcfqenj96f">
+            <div className="ldio-02fa0calvywk">
               <div></div>
               <div></div>
               <div></div>

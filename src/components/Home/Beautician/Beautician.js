@@ -74,8 +74,8 @@ const Beautician = () => {
               <BeauticianDetails artist={artist}></BeauticianDetails>
             ))
             ) : (
-            <div class="loadingio-spinner-dual-ring-qlmdv3qjtx">
-              <div class="ldio-zeqa7nuzur">
+            <div className="loadingio-spinner-dual-ring-qlmdv3qjtx">
+              <div className="ldio-zeqa7nuzur">
                 <div></div>
                 <div>
                   <div></div>

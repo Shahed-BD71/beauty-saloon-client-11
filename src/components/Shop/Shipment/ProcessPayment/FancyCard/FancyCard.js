@@ -2,67 +2,67 @@ import React from 'react';
 import './FancyCard.css';
 const FancyCard = () => {
   return (
-    <div class="container">
-      <div id="Checkout" class="inline">
+    <div className="container">
+      <div id="Checkout" className="inline">
         <h1>Pay Invoice</h1>
-        <div class="card-row">
-          <span class="visa"></span>
-          <span class="mastercard"></span>
-          <span class="amex"></span>
-          <span class="discover"></span>
+        <div className="card-row">
+          <span className="visa"></span>
+          <span className="mastercard"></span>
+          <span className="amex"></span>
+          <span className="discover"></span>
         </div>
         <form>
-          <div class="form-group">
+          <div className="form-group">
             <label for="PaymentAmount">Payment amount</label>
-            <div class="amount-placeholder">
+            <div className="amount-placeholder">
               <span>$</span>
               <span>500.00</span>
             </div>
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <label or="NameOnCard">Name on card</label>
             <input
               id="NameOnCard"
-              class="form-control"
+              className="form-control"
               type="text"
               maxlength="255"
             ></input>
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <label for="CreditCardNumber">Card number</label>
             <input
               id="CreditCardNumber"
-              class="null card-image form-control"
+              className="null card-image form-control"
               type="text"
             ></input>
           </div>
-          <div class="expiry-date-group form-group">
+          <div className="expiry-date-group form-group">
             <label for="ExpiryDate">Expiry date</label>
             <input
               id="ExpiryDate"
-              class="form-control"
+              className="form-control"
               type="text"
               placeholder="MM / YY"
               maxlength="7"
             ></input>
           </div>
-          <div class="security-code-group form-group">
+          <div className="security-code-group form-group">
             <label for="SecurityCode">Security code</label>
-            <div class="input-container">
-              <input id="SecurityCode" class="form-control" type="text"></input>
-              <i className="icon" id="cvc" class="fa fa-question-circle"></i>
+            <div className="input-container">
+              <input id="SecurityCode" className="form-control" type="text"></input>
+              <i className="icon" id="cvc" className="fa fa-question-circle"></i>
             </div>
-            <div class="cvc-preview-container two-card hide">
-              <div class="amex-cvc-preview"></div>
-              <div class="visa-mc-dis-cvc-preview"></div>
+            <div className="cvc-preview-container two-card hide">
+              <div className="amex-cvc-preview"></div>
+              <div className="visa-mc-dis-cvc-preview"></div>
             </div>
           </div>
-          <div class="zip-code-group form-group">
+          <div className="zip-code-group form-group">
             <label for="ZIPCode">ZIP/Postal code</label>
-            <div class="input-container">
+            <div className="input-container">
               <input
                 id="ZIPCode"
-                class="form-control"
+                className="form-control"
                 type="text"
                 maxlength="10"
               ></input>
@@ -74,17 +74,17 @@ const FancyCard = () => {
                 data-placement="left"
                 data-content="Enter the ZIP/Postal code for your credit card billing address."
               >
-                <i className="icon" class="fa fa-question-circle"></i>
+                <i className="icon" className="fa fa-question-circle"></i>
               </span>
             </div>
           </div>
           <button
             id="PayButton"
-            class="btn btn-block btn-success submit-button"
+            className="btn btn-block btn-success submit-button"
             type="submit"
           >
-            <span class="submit-button-lock"></span>
-            <span class="align-middle">Pay $500.00</span>
+            <span className="submit-button-lock"></span>
+            <span className="align-middle">Pay $500.00</span>
           </button>
         </form>
       </div>

@@ -14,12 +14,12 @@ const BookingCard = ({ booking, date }) => {
   return (
     <div className="col-md-4 mb-3">
       <div className="card p-3 mt-5 shadow-sm rounded">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-3 text-brand">{booking.title}</h5>
+        <div className="card-body text-center">
+          <h5 className="card-title mb-3 text-brand">{booking.title}</h5>
           <h6 className="mb-2">{booking.visitingHour}</h6>
-          <small class="card-text">{booking.space} SPACES AVAILABLE</small>
+          <small className="card-text">{booking.space} SPACES AVAILABLE</small>
           <br></br>
-          <button onClick={openModal} class="mt-3 btn btn-brand">
+          <button onClick={openModal} className="mt-3 btn btn-brand">
             Book Appointment
           </button>
           <BookingAppointment
