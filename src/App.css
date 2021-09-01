@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+.btn-brand{
+  background-image: linear-gradient(75deg, #7694da,#a473e0);
+  border-color: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.text-brand{
+  color: #14b8b2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-title{
+  color: #7ef5b5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+  margin-right: 0 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*Shop Page spinner */
+@keyframes ldio-02fa0calvywk-1 {
+  0% { top: 36px; height: 128px }
+  50% { top: 60px; height: 80px }
+  100% { top: 60px; height: 80px }
+}
+@keyframes ldio-02fa0calvywk-2 {
+  0% { top: 41.99999999999999px; height: 116.00000000000001px }
+  50% { top: 60px; height: 80px }
+  100% { top: 60px; height: 80px }
+}
+@keyframes ldio-02fa0calvywk-3 {
+  0% { top: 48px; height: 104px }
+  50% { top: 60px; height: 80px }
+  100% { top: 60px; height: 80px }
+}
+.ldio-02fa0calvywk div { position: absolute; width: 30px }.ldio-02fa0calvywk div:nth-child(1) {
+  left: 35px;
+  background: #e15b64;
+  animation: ldio-02fa0calvywk-1 1s cubic-bezier(0,0.5,0.5,1) infinite;
+  animation-delay: -0.2s
+}
+.ldio-02fa0calvywk div:nth-child(2) {
+  left: 85px;
+  background: #f8b26a;
+  animation: ldio-02fa0calvywk-2 1s cubic-bezier(0,0.5,0.5,1) infinite;
+  animation-delay: -0.1s
+}
+.ldio-02fa0calvywk div:nth-child(3) {
+  left: 135px;
+  background: #abbd81;
+  animation: ldio-02fa0calvywk-3 1s cubic-bezier(0,0.5,0.5,1) infinite;
+  animation-delay: undefineds
 }
 
-.App-link {
-  color: #61dafb;
+.loadingio-spinner-pulse-pcfqenj96f {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
 }
+.ldio-02fa0calvywk {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-02fa0calvywk div { box-sizing: content-box; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Beautician Spinner  */
+@keyframes ldio-zeqa7nuzur {
+  0% { transform: rotate(0) }
+  100% { transform: rotate(360deg) }
 }
+.ldio-zeqa7nuzur div { box-sizing: border-box!important }
+.ldio-zeqa7nuzur > div {
+  position: absolute;
+  width: 144px;
+  height: 144px;
+  top: 28px;
+  left: 28px;
+  border-radius: 50%;
+  border: 16px solid #000;
+  border-color: #fe718d transparent #fe718d transparent;
+  animation: ldio-zeqa7nuzur 1s linear infinite;
+}
+.ldio-zeqa7nuzur > div:nth-child(2) { border-color: transparent }
+.ldio-zeqa7nuzur > div:nth-child(2) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+.ldio-zeqa7nuzur > div:nth-child(2) div:before, .ldio-zeqa7nuzur > div:nth-child(2) div:after { 
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: -16px;
+  left: 48px;
+  background: #fe718d;
+  border-radius: 50%;
+  box-shadow: 0 128px 0 0 #fe718d;
+}
+.ldio-zeqa7nuzur > div:nth-child(2) div:after { 
+  left: -16px;
+  top: 48px;
+  box-shadow: 128px 0 0 0 #fe718d;
+}
+.loadingio-spinner-dual-ring-qlmdv3qjtx {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+.ldio-zeqa7nuzur {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-zeqa7nuzur div { box-sizing: content-box; }
+

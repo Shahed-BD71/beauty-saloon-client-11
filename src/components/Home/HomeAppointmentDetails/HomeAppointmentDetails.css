@@ -1,0 +1,144 @@
+/* .card-wrapper {
+  margin-bottom: 30px;
+} */
+/* .card-image .card .card-img-wrapper {
+  height: 100%;
+} */
+/* .card-image .card .card-body {
+  display: none;
+} */
+/* .card-image-title-description .card .card-img-wrapper {
+  max-height: 200px;
+}
+.card-image-title-description .card {
+  position: relative;
+  min-height: 300px;
+}
+.card-image-title-description .card .card-body {
+  height: auto;
+  position: relative;
+  top: 0;
+  margin-bottom: -70px;
+}
+.card-image-title-description .card:hover .card-body {
+  top: -40px;
+} 
+.card-image-title-description .card .card-body .card-title {
+  margin-bottom: 1.55rem;
+} */
+.home-app .card {
+  overflow: hidden;
+}
+.home-app .card:hover {
+  box-shadow: 8px 12px 31px -10px #ab98ab;
+}
+.home-app .card-img-wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+.home-app .card-img-wrapper img {
+  transition: 1.5s ease;
+}
+.home-app .card:hover .card-img-wrapper img {
+  transform: scale(1.15);
+}
+.home-app .card-body .card-title {
+  transition: 1.5s ease;
+}
+.home-app .card:hover .card-body .card-title {
+  margin-bottom: .08rem;
+}
+
+.home-app .card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 25%;
+  background-color: #fff;
+  transition: 1.5s ease;
+}
+
+.home-app .card-content {
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  transition: 1.5s ease;
+}
+
+.home-app .card:hover .card-content {
+  bottom: 0;
+}
+.home-app .card:hover .card-body {
+  height: 68%;
+ }
+
+
+/* Mobile Device Responsive */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+.home-app .card:hover .card-body {
+   height: auto;
+  }
+  .home-app .card-content {
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  transition: 1.5s ease;
+}
+.home-app .card:hover .card-body {
+  height: 27%;
+ }
+
+.home-app .card-body {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 16%;
+   background-color: #fff;
+   transition: 1.5s ease;
+  } 
+}
+
+
+
+@media only screen and (max-width: 812px) {
+  /* For mobile phones: */
+.home-app .card:hover .card-body {
+   height: auto;
+  }
+  .home-app .card-content {
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  transition: 1.5s ease;
+}
+.home-app .card:hover .card-body {
+  height: 40%;
+ }
+
+.home-app .card-body {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 16%;
+   background-color: #fff;
+   transition: 1.5s ease;
+  } 
+}
+
+@media only screen and (max-width: 896px) {
+ .home-app .card:hover .card-body {
+  height: 42%;
+ }
+}
+
+

@@ -1,0 +1,19 @@
+.testimonials {
+    background-image: url(../../../images/Messaging-Quote.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 140px;
+}
+.testimonials .card{
+    border-color: transparent;
+}
+
+.testimonials .card .card-footer{
+    background: transparent;
+    border: 0;
+}
+
+.testimonials .card:hover {
+  transform: skew(-4deg);
+  border: 1px solid rgb(224, 124, 186);
+}

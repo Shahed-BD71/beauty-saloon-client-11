@@ -1,0 +1,7 @@
+.bg-image {
+    height:800px;
+    position:relative;
+    margin-right: 0px;
+    background-image: url('../../../images/appBG.png');
+    background-size: cover;
+}

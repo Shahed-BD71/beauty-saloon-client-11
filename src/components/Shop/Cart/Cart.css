@@ -1,0 +1,13 @@
+.btn-icon {
+  width: 100%;
+  font-weight: bold;
+  color: #004987;
+  padding: 0;
+}
+
+.btn-icon:hover,
+.btn-icon:focus {
+  text-decoration: none;
+}
+
+
