@@ -72,15 +72,8 @@ const Navbar = ({ countCartItems, handleLogOut}) => {
                 Contact Us
               </NavLink>
             </li>
-            <li className="nav-item dropdown">
-              <NavLink
-                className="nav-link active text-dark dropdown-toggle"
-                to="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+            <li className="nav-item">
+              <NavLink>
                 {user ? 
                   user.name
                   : 
