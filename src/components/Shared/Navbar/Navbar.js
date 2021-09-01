@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import './Navbar.css';
 const user = JSON.parse(localStorage.getItem('user'))
 
-const Navbar = ({ countCartItems, name, handleLogOut}) => {
+const Navbar = ({ countCartItems, handleLogOut}) => {
   return (
     <nav
       style={{ backgroundColor: "rgb(37, 150, 190)" }}
@@ -81,14 +81,14 @@ const Navbar = ({ countCartItems, name, handleLogOut}) => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                {user.name || name ? (
-                  user.name || name
+                {user ? (
+                  user.name
                 ) : (
                   <span>Registration</span>
                 )}
               </NavLink>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                {user.name || name ? (
+                {user.name ? (
                   <li className="">
                     <NavLink class="dropdown-item" to='/logout'>
                       <span onClick={handleLogOut}>
