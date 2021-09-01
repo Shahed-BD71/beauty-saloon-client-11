@@ -81,29 +81,12 @@ const Navbar = ({ countCartItems, handleLogOut}) => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                {user ? (
+                {user ? 
                   user.name
-                ) : (
+                  : 
                   <span>Registration</span>
-                )}
+                }
               </NavLink>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                {user.name ? (
-                  <li className="">
-                    <NavLink className="dropdown-item" to='/logout'>
-                      <span onClick={handleLogOut}>
-                         Logout
-                     </span>
-                    </NavLink>
-                  </li>
-                ) : (
-                  <li>
-                    <NavLink className="dropdown-item" exact to="/login">
-                      <span>Sign In</span>
-                    </NavLink>
-                  </li>
-                )}
-              </ul>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link text-dark" exact to="/shop">
