@@ -73,7 +73,7 @@ const Navbar = ({ countCartItems, handleLogOut}) => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to='/login'>
+              <NavLink className="nav-link active text-dark" exact to="/login">
                 {user ? 
                   user.name
                   : 
